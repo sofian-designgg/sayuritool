@@ -13,7 +13,7 @@ import aiohttp
 # ─────────────────────────────────────────
 TOKEN = os.environ.get("TOKEN", "TON_TOKEN_ICI")
 PREFIX = "!"
-OWNER_ID = 0  #1220240949574107170
+OWNER_ID = 1220240949574107170
 
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
